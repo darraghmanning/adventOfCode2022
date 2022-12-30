@@ -1,12 +1,7 @@
 const path = require('path');
-const fs = require ('fs');
+const fs = require('fs');
 
 const input = fs
-	.readFileSync(path.join(__dirname, '../day01/input.txt'), 'utf8')
-	.toString()
-	.trim()
-	.split('\n\n')
-
-module.exports = {
-	input,
-};
+		.readFileSync(path.join(__dirname, './input.txt'), 'utf8')
+		.toString()
+		.trim();
